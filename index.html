@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEBLAK PRASMANA BUK NUNG - Menu Makanan Lezat</title>
+    <style>
+        /* Reset dan Font */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff6b6b, #feca57, #48dbfb);
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 3em;
+            color: #ff6b6b;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #feca57;
+            margin: 20px auto;
+            display: block;
+        }
+        
+        /* Menu Grid */
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .menu-item {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .menu-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .menu-item h3 {
+            font-size: 1.5em;
+            color: #ff6b6b;
+            margin-bottom: 10px;
+        }
+        .menu-item p {
+            color: #666;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            margin-top: 30px;
+            border-radius: 15px;
+        }
+        
+        /* Responsif */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header dengan Foto Profil Bisnis -->
+        <header>
+            <img src= " buknung.jpg "alt="Foto Profil SEBLAK PRASMANA BUK NUNG" class="profile-img">
+            <h1>SEBLAK PRASMANA BUK NUNG</h1>
+            <p>Makanan Lezat, Pedas, dan Nikmat untuk Semua! Nikmati variasi menu kami yang murah dan akuentik.</p>
+        </header>
+        
+        <!-- Daftar Menu -->
+        <section class="menu-grid">
+            <div class="menu-item">
+                <img src="prasmanan.jpg" alt="Seblak Prasmanan">
+                <h3>1. Seblak Prasmana</h3>
+                <p>Seblak khas dengan bumbu prasmana yang gurih dan pedas. Cocok untuk pecinta kuliner Indonesia.</p>
+            </div>
+            <div class="menu-item">
+                <img src= "maklor.jpg" alt="Maklor (Makroni Telor)">
+                <h3>2. Maklor (Makroni Telor)</h3>
+                <p>Makaroni goreng dengan telur yang renyah dan lezat. Pilihan tepat untuk camilan atau lauk.</p>
+            </div>
+            <div class="menu-item">
+                <img src= "basreng.jpg" alt="Basreng Chili Oil">
+                <h3>3. Basreng Chili Oil</h3>
+                <p>Bakso goreng dengan chili oil yang pedas dan crispy. Sensasi rasa yang tak terlupakan.</p>
+            </div>
+            <div class="menu-item">
+                <img src= "wonton.jpg" alt="Wonton Chili Oil">
+                <h3>4. Wonton Chili Oil</h3>
+                <p>Wonton hangat dengan chili oil yang gurih dan pedas. Cocok untuk pecinta kuliner Asia.</p>
+            </div>
+            <div class="menu-item">
+                <img src= "bakso.jpg" alt="Bakso Goreng">
+                <h3>5. Bakso Goreng</h3>
+                <p>Bakso goreng yang crispy di luar, lembut di dalam. Pilihan klasik yang selalu enak.</p>
+            </div>
+            <div class="menu-item">
+                <img src= "mie.jpg" alt="Mie Nyemek">
+                <h3>6. Mie Nyemek</h3>
+                <p>Mie goreng dengan kuah nyemek yang kaya rasa. Hidangan sederhana namun memuaskan.</p>
+            </div>
+            <div class="menu-item">
+                <img src= "sosis.jpg" alt="Sosis Bakar">
+                <h3>7. Sosis Bakar</h3>
+                <p>Sosis bakar dengan saus spesial. Renyah dan juicy, cocok untuk semua usia.</p>
+            </div>
+            <div class="menu-item">
+                <img src= "otak.jpg" alt="Otak-Otak Chili Oil">
+                <h3>8. Otak-Otak Chili Oil</h3>
+                <p>Otak-otak dengan chili oil yang pedas dan gurih. Inovasi rasa dari kuliner kekinian.</p>
+            </div>
+            <div class="menu-item">
+                <img src= "sticky.jpg" alt="Es Sticky Milk">
+                <h3>9. Es Sticky Milk</h3>
+                <p>Minuman segar es sticky milk yang manis dan creamy. Penutup sempurna untuk hidangan Anda.</p>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 SEBLAK PRASMANA BUK NUNG. Semua hak cipta dilindungi. Hubungi kami untuk pemesanan!</p>
+        </footer>
+    </div>
+</body>
+</html>
